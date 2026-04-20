@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan | Luqman Store</title>
+    <meta name="description" content="Pesan Baju PKKMB 2026 UBP Karawang.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-university" id="brand-logo"></i>
+                <span>Luqman Store</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="koleksi.html">Koleksi</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="pesan.html" class="btn-primary-outline active">Pesan Sekarang</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CTA / Pemesanan -->
+    <section id="pesan" class="cta section-padding" style="margin-top: 80px;">
+        <div class="container">
+            <div class="cta-box glassmorphism">
+                <h2>Siap Menyambut Kampus Baru?</h2>
+                <p>Jangan sampai kehabisan ukuran! Segera amankan baju PKKMB Anda sekarang sebelum masa pre-order ditutup.</p>
+                <form class="order-form" id="whatsapp-form">
+                    <div class="input-group">
+                        <input type="text" id="nama" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="input-group">
+                        <select id="jurusan" required>
+                            <option value="" disabled selected>Pilih Kelas Asal</option>
+                            <option value="Kelas a">25A</option>
+                            <option value="Kelas b">25B</option>
+                            <option value="Kelas c">25C</option>
+                            <option value="Kelas d">25D</option>
+                            <option value="Kelas e">25E</option>
+                            <option value="Kelas f">25F</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select id="ukuran" required>
+                            <option value="" disabled selected>Pilih Ukuran</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-whatsapp-large">
+                        <i class="fab fa-whatsapp"></i> Pesan Sekarang via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Logo UBP Karawang" onerror="this.style.display='none'">
+                    <span>Luqman Store</span>
+                </a>
+                <p>Website resmi pemesanan atribut dan seragam PKKMB Universitas Buana Perjuangan Karawang 2026.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Tautan Cepat</h4>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="koleksi.html">Koleksi</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="pesan.html">Cara Pemesanan</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Depan Kampus UBP Karawang</p>
+                <p><i class="fab fa-whatsapp"></i> +62 812-3544-9093</p>
+                <p><i class="fab fa-instagram"></i> @lqmn.117</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luqman Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
